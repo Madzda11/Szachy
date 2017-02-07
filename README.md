@@ -1,0 +1,2 @@
+# Szachy
+Gra w szachy
