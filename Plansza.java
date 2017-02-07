@@ -19,6 +19,12 @@ String napis ="WSGHKGSWPPPPPPPP................................ppppppppwsghkgsw"
         int l=0;
         for(int i =0; i<8; i++){
             for (int j=0; j<8;j++){
+				System.out.println("=======");
+				System.out.println(j*i + j);
+				System.out.println(i);
+				System.out.println(j);
+				System.out.println(ustaw(napis.charAt(8*i + j )));
+
                 if(napis.charAt(j*i + j )!= '.'){
                 pola[i][j].dodajBierkę(ustaw(napis.charAt(8*i + j )));
                     l+=1; // patrze ile razy dodal figure
